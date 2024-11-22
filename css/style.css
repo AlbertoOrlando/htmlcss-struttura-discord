@@ -26,3 +26,7 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+.marginlist{
+    margin: 0px 10px;
+}
