@@ -1,9 +1,13 @@
+/* general settings */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+/* header */
 
 header{
     background-color: blue;
@@ -31,3 +35,33 @@ header{
 }
 a{text-decoration: none;
 }
+
+/* main */
+
+/* main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* first part main */
+
+.firstsec{
+    display: flex;
+    flex-direction: column;
+    background-image: url();
+    justify-content: center;
+    align-items: center;
+    margin: 50px 400px;
+}
+
+p{
+    margin: 20px 0px;
+}
+
+label{
+    margin: 0px 20px;
+}
+
+/* second part main */
+
