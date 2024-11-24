@@ -10,7 +10,7 @@
 /* header */
 
 header{
-    background-color: blue;
+    background-color: rgb(67, 67, 255);
     /* height: 70px; */
     display: flex;
     gap: 5px;
@@ -21,7 +21,8 @@ header{
 .head{
     /* width: 50px; */
     height: 35px;
-    background-color: red;
+    /* background-color: red; */
+    padding: 5px;
 }
 
 #list{
@@ -37,6 +38,7 @@ header{
 
 .firstlist li{
     display: inline-block;
+    color: white;
 }
 
 a{text-decoration: none;
@@ -54,22 +56,59 @@ a{text-decoration: none;
 .firstsec{
     display: flex;
     flex-direction: column;
-    background-image: url();
+    background-image: url(../img/jumbo.png);
     justify-content: center;
     align-items: center;
-    margin: 40px 0px;
+    /* margin-bottom: 50px; */
+    padding: 100px;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
 }
 h1{
     width: 40%;
     text-align: center;
     margin: 10px 0px;
+    color: white;
     
+}
+
+#bot1{
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#bot3{
+    color: black;
+}
+
+#bot2{
+    background-color: black;
+    padding: 5px;
+    margin-top: 20px;
 }
 
 #par1{
     margin: 10px 0px;
     text-align: center;
     width: 40%;
+    color: white;
+}
+
+#par2{
+    margin: 10px 0px;
+    text-align: center;
+    width: 40%;
+    color: black;
+}
+
+#lasttit{
+    width: 40%;
+    text-align: center;
+    margin: 10px 0px;
+    color: black;
+    
 }
 
 label{
@@ -144,7 +183,7 @@ label{
     background-image: url();
     justify-content: center;
     align-items: center;
-    margin: 40px 0px;
+    /* margin: 40px 0px; */
     text-align: center;
     padding: 30px 30px;
 
@@ -152,11 +191,53 @@ label{
 
 .thirdcont{
     margin-left:  500px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+}
+
+/* .lastbot{
+    height: 200px;
+    background-image: url(../img/stars.svg);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+} */
+
+.boto{
+      margin-top: 50px;
+    background-image: url(../img/stars.svg);
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+#finalcon{
+    /* margin-top: 50px; */
+    /* background-color: rgb(0, 0, 0); */
+    /* background-image: url(../img/stars.svg); */
+    /* width: 400px; */
+    /*background-position: center;
+    background-size: cover; */
+    font-size: 20px;
+    padding-top: 100px;
+    
+}
+
+.lastbot3{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /* background-color: rgb(0, 0, 0); */
+    /* height: 500px; */
+    /* background-image: url("../img/stars.svg"); */
+    background-position: center;
+    background-size: cover;
+    width: max-content;
 }
 
 .lastbot{
-    margin-top: 50px;
+    background-color: black;
 }
 
 .firstfoot{
@@ -166,16 +247,29 @@ label{
     gap: 70px;
     text-align: center;
     margin-top: 20px;
-    border-bottom: 2px solid black;
-    width: 70%;
+    border-bottom: 2px solid white;
+    /* width: 70%; */
+}
+
+#ita img{
+
+    height: 10px;
+}
+
+.itaflex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .secfoot{
     display: flex;
-    width: 70%;
+    /* width: 70%; */
     justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    /* margin-left: 15%;
+    margin-right: 15%; */
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
 }
 
 .ultlist li{
@@ -205,3 +299,20 @@ label{
 /* #marlef{
     margin-left: 15%;
 } */
+
+.end{
+     background-color: rgba(0, 0, 0, .8);
+    color: white;
+}
+
+a{
+    color: white;
+}
+h3{
+    color: rgb(127, 64, 236);
+}
+
+h4{
+    color: rgb(127, 64, 236);
+
+}
