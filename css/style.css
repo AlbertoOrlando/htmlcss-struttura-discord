@@ -41,6 +41,14 @@ header{
     color: white;
 }
 
+#editbut1{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 9999px;
+    padding: 4px 5px;
+}
+
 a{text-decoration: none;
 }
 /* main */
@@ -77,6 +85,9 @@ h1{
     background-color: white;
     padding: 5px;
     margin-top: 20px;
+    border: none;
+    border-radius: 9999px;
+    padding: 10px 10px;
 }
 
 #bot3{
@@ -85,8 +96,9 @@ h1{
 
 #bot2{
     background-color: black;
-    padding: 5px;
-    margin-top: 20px;
+    border: none;
+    border-radius: 9999px;
+    padding: 10px 10px;
 }
 
 #par1{
@@ -237,7 +249,10 @@ label{
 }
 
 .lastbot{
-    background-color: black;
+    background-color: rgb(67, 67, 255);
+    border: none;
+    border-radius: 9999px;
+    padding: 10px 10px;
 }
 
 .firstfoot{
@@ -309,10 +324,20 @@ a{
     color: white;
 }
 h3{
-    color: rgb(127, 64, 236);
+    color: rgb(67, 67, 255);
 }
 
 h4{
-    color: rgb(127, 64, 236);
+    color: rgb(67, 67, 255);
 
+}
+
+#editbut2{
+    background-color: rgb(67, 67, 255);
+    border: none;
+    border-radius: 9999px;
+    padding: 7px 7px;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
 }
